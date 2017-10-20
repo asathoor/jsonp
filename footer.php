@@ -1,7 +1,7 @@
 <!-- file: footer.php -->
 
 	<!-- jsonp sample -->
-	<script src="js/xkcd-jsonp.js"></script>
+	<script src="js/wp-jsonp.js"></script>
 
 </body>
 </html>
