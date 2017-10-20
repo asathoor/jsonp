@@ -7,9 +7,11 @@ $.ajax({
         format: "json"
     },
     success: function( response ) {
-        console.log( response ); // server response
-				console.log( response[0].title.rendered ); // ok
-				console.log( response.length );
+    	
+    	// ... testing, testing ...
+        //console.log( response ); // server response
+		//console.log( response[0].title.rendered ); // ok
+		//console.log( response.length );
 
 			for( var i = 0; i < response.length; i++){
 				console.log( response[i].title.rendered );
