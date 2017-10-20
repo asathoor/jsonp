@@ -1,5 +1,5 @@
 $.ajax({
-    url: "http://research-wordpress.dk/wp-json/wp/v2/posts",
+    url: "js/xkcd.js",
     jsonp: "callback",
     dataType: "json",
  
@@ -16,7 +16,7 @@ $.ajax({
 			for( var i = 0; i < response.length; i++){
 				console.log( response[i].title.rendered );
 				$('#jsonp').append( '<div><h2>' 
-					+ response[i].title.rendered 
+					+ response[i].img 
 					+ '</h2>' 
 					+ '<div class="articleContent">' 
 					+ response[i].content.rendered 
